@@ -1,6 +1,12 @@
 # I-say
 Godot plugin that creates a new autoload singleton called I, with methods `I.say()` and `I.sayerr()`, for clean preformatted debug messaging. The header shows the script file, method, and line number of the function's call.
 
+## Installation
+Simply download and place the addons folder into your project files, then go to Project Settings/Plugins and enable the plugin called I.say().
+
+### Compatibility
+This plugin should work on all versions of Godot back to at least v4.4, with any project that does not currently have an autoload singleton called "I".
+
 ## How To Use
 To use I-say, simply call `I.say()` for debug notes, or `I.sayerr()` for error-catching.
 
