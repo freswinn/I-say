@@ -23,8 +23,8 @@ func _check_settings() -> void:
 		if !ProjectSettings.has_setting(prefix + i):
 			ProjectSettings.set_setting(prefix + i, default_settings[i])
 		ProjectSettings.set_as_basic(prefix + i, true)
-	ProjectSettings.add_property_info(
-		{"name" : prefix + "verbosity_level",
+	ProjectSettings.add_property_info({
+		"name" : prefix + "verbosity_level",
 		"type" : TYPE_INT,
 		"hint" : PROPERTY_HINT_ENUM,
 		"hint_string" : "All,Notable,Serious"})
