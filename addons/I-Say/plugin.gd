@@ -25,6 +25,7 @@ func _check_settings() -> void:
 		ProjectSettings.set_as_basic(prefix + i, true)
 	ProjectSettings.add_property_info(
 		{"name" : prefix + "verbosity_level",
-		"type" : 2,
-		"hint" : "All,Notable,Serious"})
+		"type" : TYPE_INT,
+		"hint" : PROPERTY_HINT_ENUM,
+		"hint_string" : "All,Notable,Serious"})
 	ProjectSettings.save()
