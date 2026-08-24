@@ -8,7 +8,7 @@ Simply download and place the addons folder into your project files, then go to 
 This plugin should work on all versions of Godot back to at least v4.4, with any project that does not currently have an autoload singleton called "I".
 
 ## How To Use
-To use I-say, simply call `I.say()` for debug notes, or `I.sayerr()` for error-catching.
+To use I-say, simply call `I.say()` for debug notes, or `I.sayerr()` for reporting errors.
 
 ### Verbosity Level
 `I.say()` accepts three levels of verbosity: All, Notable, and Serious.
