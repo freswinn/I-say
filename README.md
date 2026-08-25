@@ -40,7 +40,7 @@ Here you can set:
 ![Example of the output from above when Verbosity Level is set to Notable.](img/ss3.png)
 
 ### Error Messages and Formatting
-Because `I.say()` is modeled around `print_fancy()`, you can use BBCode to format the text it outputs. The same is not true of `I.sayerr()`.
+Because `I.say()` is modeled around `print_rich()`, you can use BBCode to format the text it outputs. The same is not true of `I.sayerr()`.
 
 ```
 func _ready() -> void:
